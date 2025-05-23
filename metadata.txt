@@ -1,0 +1,7 @@
+[general]
+name=Ramal Automático
+description=Cria ramais automaticamente entre ponto de entrega e poste
+version=1.0
+qgisMinimumVersion=3.0
+author=Ediliano de Araújo Fernandes
+email=ediliano.araujo@delos.com.br
