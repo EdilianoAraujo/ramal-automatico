@@ -1,7 +1,13 @@
 [general]
 name=Ramal Automático
-description=Cria ramais automaticamente entre ponto de entrega e poste
-version=1.0
+description=Cria ramais automaticamente entre ponto de entrega e poste no QGIS
+			Requesitos: uma Camada de pontos chamada LI_REDE_EC_POSTE com um campo fid, uma camda de pontos chamada PONTO_DE_ENTREGA
+			            com os campos fid, LI_REDE_EC_POSTE_ID (O campo LI_REDE_EC_POSTE_ID de receber o fid da camada LI_REDE_EC_POSTE que o PONTO_DE_ENTREGA está relacionado e uma camada de linha chamada RAMAL com os campos id, MSLINK_PG e MSLINK_PE
+category=Vector
+version=1.0.0
 qgisMinimumVersion=3.0
-author=Ediliano de Araújo Fernandes
+author=Ediliano de Araujo Fernandes
 email=ediliano.araujo@delos.com.br
+homepage=https://github.com/EdilianoAraujo/ramal-automatico
+tracker=https://github.com/EdilianoAraujo/ramal-automatico/issues
+repository=https://github.com/EdilianoAraujo/ramal-automatico
